@@ -10,16 +10,16 @@ function Contact(){
                 </div>
                 <div className="contact-links">
                     <div className="contact-email">
-                        <HiOutlineMail style={{color:"black", height:"3em", width:"3em", padding:"20px"}}/>
-                        <span style={{color:"black"}}>jzhou35@buffalo.edu</span>
+                        <HiOutlineMail style={{color:"black", height:"3em", width:"3em"}}/>
+                        <span style={{color:"black", padding:"10px"}}>jzhou35@buffalo.edu</span>
                     </div>
                     <div className="contact-linkedin">
-                        <ImLinkedin style={{color:"black", height:"3em", width:"3em", padding:"20px"}}/>
-                        <a className="linkedin-a"href="https://www.linkedin.com/in/jasonnnz/">LinkedIn</a>
+                        <ImLinkedin style={{color:"black", height:"3em", width:"3em"}}/>
+                        <a className="linkedin-a" href="https://www.linkedin.com/in/jasonnnz/">LinkedIn</a>
                     </div>
                     <div className="contact-phone">
-                        <FaPhoneAlt style={{color:"black", height:"3em", width:"3em", padding:"20px"}}/>
-                        <span style={{color:"black"}}>(646)-625-9905</span>
+                        <FaPhoneAlt style={{color:"black", height:"3em", width:"3em"}}/>
+                        <span style={{color:"black", padding:"10px"}}>(646)-625-9905</span>
                     </div>
                 </div>
             </div>

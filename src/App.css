@@ -131,14 +131,14 @@ body{
   justify-content: space-around;
 }
 .skills-list li {
-  padding: 2px 0px;
+  padding: 2px 5px;
 }
 .skills-list-div {
   margin: 15px;
   padding: 25px 55px;
   border: solid;
   box-shadow: 5px 5px 7px 5px lightgrey;
-  width: 18vw;
+  width: 25vw;
   border-radius: 35px;
   display: flex;
   flex-direction: column;
@@ -214,6 +214,7 @@ body{
 .linkedin-a {
   color: black;
   text-decoration: none;
+  padding: 10px;
 }
 .linkedin-a:hover {
   color: navy;
