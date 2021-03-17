@@ -1,6 +1,7 @@
 import './App.css';
 import NavBar from './components/NavBar';
 import Resume from './components/Resume';
+import Projects from './components/Projects';
 import Contact from './components/Contact';
 import About from './components/About';
 import HomePage from './components/HomePage';
@@ -18,8 +19,7 @@ function App() {
           <Resume/>
         </Route>
         <Route path="/projects">
-          Projects
-          {/* <Projects/> */}
+          <Projects/>
         </Route>
         <Route path="/contact">
           <Contact/>

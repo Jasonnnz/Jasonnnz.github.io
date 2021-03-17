@@ -1,5 +1,4 @@
 import picture3 from '../images/profilepicture2.png'
-import picture2 from '../images/profilepicture.JPG'
 function About(){
     return(
         <div className="about-div">

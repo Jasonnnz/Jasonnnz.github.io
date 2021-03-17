@@ -6,20 +6,20 @@ function Contact(){
         <div className="contact-div">
             <div className="inner-contact">
                 <div className="contact-me">
-                    <h1 style={{margin:"0", fontSize:"50px", color:"white"}}>Let's Connect.</h1>
+                    <h1 style={{margin:"0", fontSize:"50px", color:"black"}}>Let's Connect.</h1>
                 </div>
                 <div className="contact-links">
                     <div className="contact-email">
-                        <HiOutlineMail style={{color:"white", height:"3em", width:"3em", padding:"20px"}}/>
-                        <span style={{color:"white"}}>jzhou35@buffalo.edu</span>
+                        <HiOutlineMail style={{color:"black", height:"3em", width:"3em", padding:"20px"}}/>
+                        <span style={{color:"black"}}>jzhou35@buffalo.edu</span>
                     </div>
                     <div className="contact-linkedin">
-                        <ImLinkedin style={{color:"white", height:"3em", width:"3em", padding:"20px"}}/>
+                        <ImLinkedin style={{color:"black", height:"3em", width:"3em", padding:"20px"}}/>
                         <a className="linkedin-a"href="https://www.linkedin.com/in/jasonnnz/">LinkedIn</a>
                     </div>
                     <div className="contact-phone">
-                        <FaPhoneAlt style={{color:"white", height:"3em", width:"3em", padding:"20px"}}/>
-                        <span style={{color:"white"}}>(646)-625-9905</span>
+                        <FaPhoneAlt style={{color:"black", height:"3em", width:"3em", padding:"20px"}}/>
+                        <span style={{color:"black"}}>(646)-625-9905</span>
                     </div>
                 </div>
             </div>
