@@ -17,8 +17,8 @@ function Projects(){
         description={p.description} 
         meta={p.languages}
         extra={<div className="extra-btn">
-            <a href={p.front}><Icon name="github">FrontEnd</Icon></a>
-            <a href={p.back}><Icon name="github alternate">BackEnd</Icon></a>
+            <a href={p.front}><Icon name="github">Frontend</Icon></a>
+            <a href={p.back}><Icon name="github alternate">Backend</Icon></a>
             </div>}
         />
     })
