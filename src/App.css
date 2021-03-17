@@ -1,38 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+body{
+  height: 100vh;
+}
+#root{
+  height: 100vh;
+}
 .App {
   text-align: center;
+  height: 100%;
+  background-image: url("https://www.teahub.io/photos/full/35-351549_beautiful-river-scenery-wallpaper-scenic-backgrounds-hd.jpg");
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Navbar {
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #333;
+  padding: 14px 16px;
+  min-height: 8vh;
+  background: transparent;
+}
+.Navbar a {
+  display: block;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.homepage {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 86vh;
+}
+.my-name {
   color: white;
+  font-family: sans-serif;
 }
-
-.App-link {
-  color: #61dafb;
+.my-name h1 {
+  font-size: 100px;
+  margin: 0px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.my-name h3 {
+  font-size: 25px;
+  margin: 10px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.social {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+.social li {
+  padding: 10px;
+}
+.about-div {
+  height: 86vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner-about {
+  height: 95%;
+  width: 95%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background-color: rgba(299, 299, 299, 0.9);
+  border-radius: 50px;
+}
+.summary {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.about-bottom-div {
+  grid-area: 2 / 1 / 3 / 2;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+.my-profile {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.skills {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.picture-description {
+  height: 69%;
+  display: flex;
+  width: 45vw;
+  justify-content: flex-end;
+  margin-left: 25vw;
+}
+.picture-description img {
+  border-radius: 50%;
+  float: left;
+}
+.description {
+  text-align: left;
+  padding: 2px 18px;
+  font-size: 24px;
+  margin: 0;
+}
+.description-div {
+  height: fit-content;
 }

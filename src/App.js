@@ -1,5 +1,6 @@
 import './App.css';
 import NavBar from './components/NavBar';
+import About from './components/About';
 import HomePage from './components/HomePage';
 import {Route, Switch} from 'react-router-dom';
 
@@ -9,8 +10,7 @@ function App() {
       <NavBar/>
       <Switch>
         <Route path="/about">
-          About
-          {/* <About/> */}
+          <About/>
         </Route>
         <Route path="/resume">
           Resume
