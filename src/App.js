@@ -1,5 +1,6 @@
 import './App.css';
 import NavBar from './components/NavBar';
+import Resume from './components/Resume';
 import About from './components/About';
 import HomePage from './components/HomePage';
 import {Route, Switch} from 'react-router-dom';
@@ -13,8 +14,7 @@ function App() {
           <About/>
         </Route>
         <Route path="/resume">
-          Resume
-          {/* <Resume/> */}
+          <Resume/>
         </Route>
         <Route path="/projects">
           Projects

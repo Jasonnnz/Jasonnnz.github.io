@@ -5,7 +5,7 @@ function About(){
         <div className="about-div">
             <div className="inner-about">
                 <div className="summary">
-                    <h3 style={{color:"black"}}>About</h3>
+                    <h2 style={{color:"black", margin:"40px"}}>About</h2>
                     <div className="picture-description">
                         <img src={picture3} alt="Profile Picture" height="150px" width="150px"></img>
                         <div className="description-div"><p className="description">

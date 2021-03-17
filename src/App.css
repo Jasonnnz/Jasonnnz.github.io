@@ -148,5 +148,15 @@ body{
 }
 .colored {
   font-size: 3.5em;
-  padding: 5px;
+  padding: 6px;
+}
+.resume-div {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner-resume {
+  height: 95.5%;
+  width: 95%;
 }
