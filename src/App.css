@@ -219,8 +219,19 @@ body{
   color: navy;
 }
 .projects-div {
-  height: 86vh;
+  height: 92vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+.project-list {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.extra-btn {
+  display: flex;
+  justify-content: space-around;
+}
+

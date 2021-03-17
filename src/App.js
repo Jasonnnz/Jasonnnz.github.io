@@ -1,4 +1,5 @@
 import './App.css';
+import 'semantic-ui-css/semantic.min.css'
 import NavBar from './components/NavBar';
 import Resume from './components/Resume';
 import Projects from './components/Projects';
