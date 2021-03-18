@@ -235,6 +235,6 @@ body{
 .extra-btn {
   display: flex;
   justify-content: space-around;
-  padding-right: 35px;
+  padding-right: 10px 35px;
 }
 
