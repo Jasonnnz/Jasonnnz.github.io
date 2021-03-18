@@ -10,7 +10,7 @@ let projects = [{front:"https://github.com/Jasonnnz/jobra_frontend", back:"https
                 {front:"https://github.com/Jasonnnz/steam0.5_frontend", back:"https://github.com/Jasonnnz/steam0.5_backend", image:steam, name: "Steam0.5", description: "A single-page application that allows a user to connect and find common game interests with other users.", languages: "JavaScript, Ruby on Rails, HTML, CSS"}]
 function Projects(){
     let projs = projects.map((p) => {
-        return <Card style={{height:"68%", width:"23%", boxShadow:"5px 5px 7px 5px black"}} 
+        return <Card style={{height:"60%", width:"23%", boxShadow:"5px 5px 7px 5px black"}} 
         image={p.image} 
         header={p.name} 
         description={p.description} 
