@@ -11,7 +11,7 @@ let projects = [{front:"https://github.com/Jasonnnz/jobra_frontend", back:"https
 // {front:"https://github.com/Jasonnnz/study_buddy", image:studybuddy, name: "StudyBuddy", description: "A JavaScript application that allows users to connect with other students and see what classes they're taking.", languages: "JavaScript, Ruby on Rails, SQLite3"}
 function Projects(){
     let projs = projects.map((p) => {
-        return <Card style={{height:"65%", width:"23%", boxShadow:"5px 5px 7px 5px black"}} 
+        return <Card style={{height:"68%", width:"23%", boxShadow:"5px 5px 7px 5px black"}} 
         image={p.image} 
         header={p.name} 
         description={p.description} 
