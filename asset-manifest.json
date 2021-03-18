@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Jasonnnz.github.io/static/css/main.6a786d89.chunk.css",
-    "main.js": "/Jasonnnz.github.io/static/js/main.3a585571.chunk.js",
-    "main.js.map": "/Jasonnnz.github.io/static/js/main.3a585571.chunk.js.map",
+    "main.css": "/Jasonnnz.github.io/static/css/main.05ea6e1d.chunk.css",
+    "main.js": "/Jasonnnz.github.io/static/js/main.1ae54f4e.chunk.js",
+    "main.js.map": "/Jasonnnz.github.io/static/js/main.1ae54f4e.chunk.js.map",
     "runtime-main.js": "/Jasonnnz.github.io/static/js/runtime-main.3cba8f9f.js",
     "runtime-main.js.map": "/Jasonnnz.github.io/static/js/runtime-main.3cba8f9f.js.map",
     "static/css/2.9cca250d.chunk.css": "/Jasonnnz.github.io/static/css/2.9cca250d.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.72e8c1d4.chunk.js.map": "/Jasonnnz.github.io/static/js/3.72e8c1d4.chunk.js.map",
     "index.html": "/Jasonnnz.github.io/index.html",
     "static/css/2.9cca250d.chunk.css.map": "/Jasonnnz.github.io/static/css/2.9cca250d.chunk.css.map",
-    "static/css/main.6a786d89.chunk.css.map": "/Jasonnnz.github.io/static/css/main.6a786d89.chunk.css.map",
+    "static/css/main.05ea6e1d.chunk.css.map": "/Jasonnnz.github.io/static/css/main.05ea6e1d.chunk.css.map",
     "static/js/2.83a19dbd.chunk.js.LICENSE.txt": "/Jasonnnz.github.io/static/js/2.83a19dbd.chunk.js.LICENSE.txt",
     "static/media/semantic.min.css": "/Jasonnnz.github.io/static/media/outline-icons.ddae9b1b.woff",
     "static/media/jobra.fd0cb712.png": "/Jasonnnz.github.io/static/media/jobra.fd0cb712.png",
@@ -26,7 +26,7 @@
     "static/js/runtime-main.3cba8f9f.js",
     "static/css/2.9cca250d.chunk.css",
     "static/js/2.83a19dbd.chunk.js",
-    "static/css/main.6a786d89.chunk.css",
-    "static/js/main.3a585571.chunk.js"
+    "static/css/main.05ea6e1d.chunk.css",
+    "static/js/main.1ae54f4e.chunk.js"
   ]
 }
