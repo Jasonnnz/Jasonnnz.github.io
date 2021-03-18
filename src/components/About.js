@@ -39,7 +39,7 @@ function About(){
                     </div>
                     <div className="want-to-learn-skills">
                         <div className="skills-list-div">
-                            <h2 className="skills-title">Interested in learning</h2>
+                            <h2 className="skills-title">Interested in</h2>
                             <ul className="skills-list">
                                 <li><i className="devicon-swift-plain-wordmark colored"></i></li>
                                 <li><i className="devicon-angularjs-plain-wordmark colored"></i></li>

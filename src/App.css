@@ -129,9 +129,10 @@ body{
   list-style: none;
   padding: 0px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 .skills-list li {
+  display: flex;
   padding: 2px 5px;
 }
 .skills-list-div {
@@ -143,6 +144,7 @@ body{
   border-radius: 35px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 .skills-title {
   border: 0px;
