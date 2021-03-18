@@ -15,7 +15,7 @@ function Contact(){
                     </div>
                     <div className="contact-linkedin">
                         <ImLinkedin style={{color:"black", height:"3em", width:"3em"}}/>
-                        <a className="linkedin-a" href="https://www.linkedin.com/in/jasonnnz/">LinkedIn</a>
+                        <a className="linkedin-a" href="https://www.linkedin.com/in/jasonnnz/" target="_blank">LinkedIn</a>
                     </div>
                     <div className="contact-phone">
                         <FaPhoneAlt style={{color:"black", height:"3em", width:"3em"}}/>
