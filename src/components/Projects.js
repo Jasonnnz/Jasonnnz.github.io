@@ -1,5 +1,5 @@
-import jobra from '../images/jobra.png'
-import yourseum from '../images/yourseum.png'
+import jobra from '../images/jobra2.png'
+import yourseum from '../images/yourseum2.png'
 import steam from '../images/steam0.5.png'
 import studybuddy from '../images/studybuddy.png'
 import { FaCaretDown } from "react-icons/fa"
@@ -16,9 +16,9 @@ function Projects(){
         description={p.description} 
         meta={p.languages}
         extra={<div className="extra-btn">
-            <a href={p.front}><Icon name="github">Frontend</Icon></a>
-            <a href={p.back}><Icon name="github alternate">Backend</Icon></a>
-            <a href={p.demo}><Icon name="globe">Demo</Icon></a>
+            <a target="_blank" href={p.front}><Icon name="github">Frontend</Icon></a>
+            <a target="_blank" href={p.back}><Icon name="github alternate">Backend</Icon></a>
+            <a target="_blank" href={p.demo}><Icon name="globe">Demo</Icon></a>
             </div>}
         />
     })
@@ -33,7 +33,7 @@ function Projects(){
                 description="A JavaScript application that allows users to connect with other students and see what classes they're taking." 
                 meta="JavaScript, Ruby on Rails, SQLite3"
                 extra={<div className="extra-btn">
-                    <a href="https://github.com/Jasonnnz/study_buddy"><Icon name="github">GitHub</Icon></a>
+                    <a target="_blank" href="https://github.com/Jasonnnz/study_buddy"><Icon name="github">GitHub</Icon></a>
                 </div>}/>
             </Card.Group>
         </div>
