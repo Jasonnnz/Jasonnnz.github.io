@@ -250,6 +250,7 @@ body{
   align-items: center;
   justify-content: center;
 }
+.project-list
 .extra-btn {
   display: flex;
   justify-content: space-around;
