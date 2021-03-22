@@ -40,7 +40,7 @@ function Projects(){
           </CardContent>
         </CardActionArea>
         <CardActions>
-          <Button size="small" color="primary" style={{display: "flex", justifyContent: "center"}}>
+          <Button size="small" color="primary">
             <a target="_blank" href={p.front} >Frontend</a>
           </Button>
           <Button size="small" color="primary">
@@ -54,42 +54,30 @@ function Projects(){
     })
     return (
         <div className="projects-div">
-            {/* <Card.Group itemsPerRow={4} className="project-list">
-                {projs}
-                <Card className="project-card"
-                style={{height:"57vh", width:"23%", boxShadow:"5px 5px 7px 5px black", fontSize: "small"}}
-                image={studybuddy} 
-                header="StudyBuddy" 
-                description="A JavaScript application that allows users to connect with other students and see what classes they're taking." 
-                meta="JavaScript, Ruby on Rails, SQLite3"
-                extra={<div className="extra-btn">
-                    <a target="_blank" href="https://github.com/Jasonnnz/study_buddy"><Icon name="github">GitHub</Icon></a>
-                </div>}/>
-            </Card.Group> */}
             {projs}
             <Card className={classes.root}>
-        <CardActionArea>
-          <CardMedia
-            className={classes.media}
-            image={studybuddy}
-            title="StudyBuddy"
-          />
-          <CardContent>
-            <Typography gutterBottom variant="h5" component="h2">
-            StudyBuddy
-            </Typography>
-            <Typography variant="body">JavaScript | Ruby on Rails | SQLite3</Typography>
-            <Typography variant="body2" color="textSecondary" component="p">
-            A JavaScript application that allows users to connect with other students and see what classes they're taking.
-            </Typography>
-          </CardContent>
-        </CardActionArea>
-        <CardActions>
-          <Button size="small" color="primary">
-            <a target="_blank" href={"https://github.com/Jasonnnz/study_buddy"} >Github</a>
-          </Button>
-        </CardActions>
-      </Card>
+                <CardActionArea>
+                <CardMedia
+                    className={classes.media}
+                    image={studybuddy}
+                    title="StudyBuddy"
+                />
+                <CardContent>
+                    <Typography gutterBottom variant="h5" component="h2">
+                    StudyBuddy
+                    </Typography>
+                    <Typography variant="body">JavaScript | Ruby on Rails | SQLite3</Typography>
+                    <Typography variant="body2" color="textSecondary" component="p">
+                    A JavaScript application that allows users to connect with other students and see what classes they're taking.
+                    </Typography>
+                </CardContent>
+                </CardActionArea>
+                <CardActions>
+                <Button size="small" color="primary">
+                    <a target="_blank" href={"https://github.com/Jasonnnz/study_buddy"} >Github</a>
+                </Button>
+                </CardActions>
+            </Card>
         </div>
     )
 }
