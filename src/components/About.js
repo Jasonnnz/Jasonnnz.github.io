@@ -8,7 +8,7 @@ function About(){
                     <div className="picture-description">
                         <img src={picture3} alt="Profile Picture" height="150px" width="150px"></img>
                         <div className="description-div"><p className="description">
-                            I'm a Full-stack web developer experienced in JavaScript and Ruby on Rails with a background in Applied Mathematics. I have a strong work ethic, an eagerness to learn, and internship experience at Stark & Wayne LLC.
+                            I'm a Full-stack Web Developer experienced in JavaScript and Ruby on Rails with a background in Applied Mathematics and internship experience at Stark & Wayne LLC. I am team oriented, have a strong work ethic, and an eagerness to learn.
                         </p></div>
                     </div>
                 </div>

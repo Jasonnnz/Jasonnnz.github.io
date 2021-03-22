@@ -57,7 +57,7 @@ function Projects(){
             {/* <Card.Group itemsPerRow={4} className="project-list">
                 {projs}
                 <Card className="project-card"
-                style={{height:"55vh", width:"23%", boxShadow:"5px 5px 7px 5px black", fontSize: "small"}}
+                style={{height:"57vh", width:"23%", boxShadow:"5px 5px 7px 5px black", fontSize: "small"}}
                 image={studybuddy} 
                 header="StudyBuddy" 
                 description="A JavaScript application that allows users to connect with other students and see what classes they're taking." 
