@@ -8,9 +8,11 @@ import {Card, Icon} from 'semantic-ui-react'
 let projects = [{demo:"https://www.loom.com/share/366f0507187a4e4389cdbc93427f850a", front:"https://github.com/Jasonnnz/jobra_frontend", back:"https://github.com/Jasonnnz/jobra_backend", image:jobra, name: "Jobra", description: "A React application that lets users to keep track of job applications with a data layer to allow the creation of ad hoc charts.", languages: "React, Ruby on Rails, PostgreSQL, ChartJS"},
                 {demo:"https://www.loom.com/share/26a7ca5f8dba4250adc7188da8538004", front:"https://github.com/Jasonnnz/yourseum_frontend", back:"https://github.com/Jasonnnz/yourseum_backend", image:yourseum, name: "Yourseum", description: "A React application that takes favorite masterpieces out of the museum and places selections on a user’s screen.", languages: "React, Ruby on Rails, Netlify, Heroku"},
                 {demo:"https://www.loom.com/share/d4e988b6b97e46afa9a6e431b2fcfc33", front:"https://github.com/Jasonnnz/steam0.5_frontend", back:"https://github.com/Jasonnnz/steam0.5_backend", image:steam, name: "Steam0.5", description: "A single-page application that allows a user to connect and find common game interests with other users.", languages: "JavaScript, Ruby on Rails, HTML, CSS"}]
+
+
 function Projects(){
     let projs = projects.map((p) => {
-        return <Card className="project-card" style={{height:"60%", width:"23%", boxShadow:"5px 5px 7px 5px black"}} 
+        return <Card className="project-card" style={{height:"55vh", width:"23%", boxShadow:"5px 5px 7px 5px black", fontSize: "small"}} 
         image={p.image} 
         header={p.name} 
         description={p.description} 
@@ -27,7 +29,7 @@ function Projects(){
             <Card.Group itemsPerRow={4} className="project-list">
                 {projs}
                 <Card className="project-card"
-                style={{height:"60%", width:"23%", boxShadow:"5px 5px 7px 5px black"}}
+                style={{height:"55vh", width:"23%", boxShadow:"5px 5px 7px 5px black", fontSize: "small"}}
                 image={studybuddy} 
                 header="StudyBuddy" 
                 description="A JavaScript application that allows users to connect with other students and see what classes they're taking." 
