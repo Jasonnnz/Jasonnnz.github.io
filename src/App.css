@@ -144,7 +144,6 @@ body{
 }
 .skills-list li {
   display: flex;
-  /* padding: 2px 5px; */
 }
 .skills-list-div {
   margin: 15px;
@@ -199,36 +198,15 @@ body{
   flex-direction: column;
 }
 .contact-links {
-  /* grid-area: 2 / 1 / 3 / 2;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  align-items: flex-start; */
   display: flex;
   justify-content: space-evenly;
 }
 .contact-email {
   display: flex;
-  /* grid-area: 1 / 1 / 2 / 2;
-  display: flex;
-  flex-direction: column;
-  align-items: center; */
 }
 .contact-linkedin {
   display: flex;
-  /* grid-area: 1 / 2 / 2 / 3;
-  display: flex;
-  flex-direction: column;
-  align-items: center; */
 }
-/* .contact-phone {
-  grid-area: 1 / 3 / 2 / 4;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-} */
 .linkedin-a {
   color: black;
   text-decoration: none;
@@ -256,3 +234,4 @@ body{
   padding-right: 35px;
 }
 
+/* MEDIA QUERIES */
