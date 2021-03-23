@@ -18,6 +18,7 @@ let projects = [{demo:"https://www.loom.com/share/366f0507187a4e4389cdbc93427f85
 const useStyles = makeStyles({
     root: { maxWidth: 300, boxShadow:"5px 5px 7px 5px black"},
     media: { height: 200, width: "auto"}});
+    
 function Projects(){
     const classes= useStyles();
 
