@@ -127,7 +127,7 @@ body{
 }
 .description {
   text-align: left;
-  padding: 18px 18px;
+  padding-left: 10px;
   font-size: 20px;
   margin: 0;
 }
@@ -225,4 +225,37 @@ body{
 }
 
 /* MEDIA QUERIES */
-
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  .description{
+    font-size: large;
+  }
+  .MuiPaper-root.MuiCard-root{
+    height: 55vh;
+    width: 23vw;
+  }
+}
+@media only screen and (min-width: 980px) and (max-width: 1023px){
+  .description{
+    font-size: medium;
+  }
+  .MuiPaper-root.MuiCard-root{
+    height: 55vh;
+    width: 23vw;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px){
+  .description{
+    font-size: small;
+  }
+  .description-div{
+    margin-top: 10px;
+    margin-bottom: 25px;
+  }
+  .skills-list li i {
+    font-size: 2em;
+  }
+  /* .MuiPaper-root.MuiCard-root{
+    height: 58vh;
+    width: 23vw;
+  } */
+}
