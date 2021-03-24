@@ -198,6 +198,9 @@ body{
   justify-content: center;
   flex-direction: column;
 }
+.lets-connect{
+  font-size: 50px;
+}
 .contact-links {
   display: flex;
   justify-content: space-evenly;
@@ -281,4 +284,80 @@ body{
   .MuiCardMedia-root.makeStyles-media-2{
     height: 125px;
   }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px){
+  .picture-description{
+    margin-left: 10vh;
+    width: 60vw;
+  }
+  .description{
+    font-size: small;
+  }
+  .description-div{
+    margin-bottom: 25px;
+  }
+  .skills-list li i {
+    font-size: 2em;
+  }
+  .about-bottom-div{
+    width: 95vw;
+  }
+  .about-bottom-div h2 {
+    font-size: medium;
+  }
+  .skills-list-div{
+    margin: 5px;
+  }
+  .projects-div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  #Jobra{grid-area: 1 / 1 / 2 / 2;}
+  #Yourseum{grid-area: 1 / 2 / 2 / 3}
+  #Steam{grid-area: 2 / 1 / 3 / 2;}
+  #StudyBuddy{grid-area: 2 / 2 / 3 / 3;}
+  .MuiCardContent-root{
+    padding: 10px;
+  }
+  .MuiCardContent-root h2{
+    margin: 0;
+    font-size: 1rem;
+  }
+  .MuiCardContent-root span{
+    font-size: .9rem;
+  }
+  .MuiPaper-root.MuiCard-root{
+    height: 37vh;
+    margin: 0px 15px;
+    width: 225px;
+  }
+  .MuiCardMedia-root.makeStyles-media-2{
+    height: 100px;
+  }
+  .lets-connect{
+    font-size: 35px;
+  }
+  .contact-email{
+    flex-direction: column;
+  }
+  .contact-email svg{
+    margin-left: 5vw;
+  }
+  .contact-linkedin{
+    flex-direction: column;
+  }
+  .linkedin-a{
+    margin-right: 5vw;
+    padding: 20px 0;
+  }
+  /* .contact-linkedin a{
+    margin-right: 20px;
+    padding: 15px 15px;
+  } */
+}
+@media only screen and (min-width: 320px) and (max-width: 479px){
+  
 }

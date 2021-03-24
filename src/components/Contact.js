@@ -7,7 +7,7 @@ function Contact(){
         <div className="contact-div">
             <div className="inner-contact">
                 <div className="contact-me">
-                    <h1 style={{margin:"0", fontSize:"50px", color:"black"}}>Let's Connect.</h1>
+                    <h1 className="lets-connect"style={{margin:"0", color:"black"}}>Let's Connect.</h1>
                 </div>
                 <div className="contact-links">
                     <div className="contact-email">
