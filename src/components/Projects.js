@@ -11,9 +11,9 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 
-let projects = [{demo:"https://www.loom.com/share/366f0507187a4e4389cdbc93427f850a", front:"https://github.com/Jasonnnz/jobra_frontend", back:"https://github.com/Jasonnnz/jobra_backend", image:jobra, name: "Jobra", description: "A React application for users to keep track of job applications with a data layer to allow the creation of ad hoc charts.", languages: "React | Ruby on Rails | PostgreSQL"},
-                {demo:"https://www.loom.com/share/26a7ca5f8dba4250adc7188da8538004", front:"https://github.com/Jasonnnz/yourseum_frontend", back:"https://github.com/Jasonnnz/yourseum_backend", image:yourseum, name: "Yourseum", description: "A React application that takes favorite masterpieces out of the museum and places selections on a user’s screen.", languages: "React | Ruby on Rails | Netlify | Heroku"},
-                {demo:"https://www.loom.com/share/d4e988b6b97e46afa9a6e431b2fcfc33", front:"https://github.com/Jasonnnz/steam0.5_frontend", back:"https://github.com/Jasonnnz/steam0.5_backend", image:steam, name: "Steam0.5", description: "A single-page application that allows a user to connect and find common game interests with other users.", languages: "JavaScript | Ruby on Rails | HTML | CSS"}]
+let projects = [{id: "Jobra", demo:"https://www.loom.com/share/366f0507187a4e4389cdbc93427f850a", front:"https://github.com/Jasonnnz/jobra_frontend", back:"https://github.com/Jasonnnz/jobra_backend", image:jobra, name: "Jobra", description: "A React application for users to keep track of job applications with a data layer to allow the creation of ad hoc charts.", languages: "React | Ruby on Rails | PostgreSQL"},
+                {id: "Yourseum", demo:"https://www.loom.com/share/26a7ca5f8dba4250adc7188da8538004", front:"https://github.com/Jasonnnz/yourseum_frontend", back:"https://github.com/Jasonnnz/yourseum_backend", image:yourseum, name: "Yourseum", description: "A React application that takes favorite masterpieces out of the museum and places selections on a user’s screen.", languages: "React | Ruby on Rails | Netlify | Heroku"},
+                {id: "Steam", demo:"https://www.loom.com/share/d4e988b6b97e46afa9a6e431b2fcfc33", front:"https://github.com/Jasonnnz/steam0.5_frontend", back:"https://github.com/Jasonnnz/steam0.5_backend", image:steam, name: "Steam0.5", description: "A single-page application that allows a user to connect and find common game interests with other users.", languages: "JavaScript | Ruby on Rails | HTML | CSS"}]
 
 const useStyles = makeStyles({
     root: { maxWidth: 300, boxShadow:"5px 5px 7px 5px black"},
@@ -23,7 +23,7 @@ function Projects(){
     const classes= useStyles();
 
     let projs = projects.map((p) => {
-        return  <Card className={classes.root}>
+        return  <Card id={p.id} className={classes.root}>
         <CardActionArea>
           <CardMedia
             className={classes.media}
@@ -56,7 +56,7 @@ function Projects(){
     return (
         <div className="projects-div">
             {projs}
-            <Card className={classes.root}>
+            <Card id="StudyBuddy" className={classes.root}>
                 <CardActionArea>
                 <CardMedia
                     className={classes.media}

@@ -254,8 +254,22 @@ body{
   .skills-list li i {
     font-size: 2em;
   }
-  /* .MuiPaper-root.MuiCard-root{
-    height: 58vh;
-    width: 23vw;
-  } */
+  .projects-div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  #Jobra{grid-area: 1 / 1 / 2 / 2;}
+  #Yourseum{grid-area: 1 / 2 / 2 / 3}
+  #Steam{grid-area: 2 / 1 / 3 / 2;}
+  #StudyBuddy{grid-area: 2 / 2 / 3 / 3;}
+  .MuiPaper-root.MuiCard-root{
+    height: 40vh;
+    margin-left: 87px;
+  }
+  .MuiCardMedia-root.makeStyles-media-2{
+    height: 125px;
+  }
 }
