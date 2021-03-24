@@ -155,6 +155,7 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: silver;
 }
 .skills-title {
   border: 0px;
