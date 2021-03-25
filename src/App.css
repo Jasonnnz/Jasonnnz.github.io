@@ -284,6 +284,10 @@ body{
   .MuiCardMedia-root.makeStyles-media-2{
     height: 125px;
   }
+  .MuiCardMedia-root.jss2{
+    height: 125px;
+  }
+  /* ADD CSS FOR JSS2 AND makeStyles-media-2 */
 }
 @media only screen and (min-width: 480px) and (max-width: 767px){
   .picture-description{
@@ -335,6 +339,9 @@ body{
     width: 215px;
   }
   .MuiCardMedia-root.makeStyles-media-2{
+    height: 100px;
+  }
+  .MuiCardMedia-root.jss2{
     height: 100px;
   }
   .lets-connect{
@@ -419,6 +426,9 @@ body{
     width: 150px;
   }
   .MuiCardMedia-root.makeStyles-media-2{
+    height: 100px;
+  }
+  .MuiCardMedia-root.jss2{
     height: 100px;
   }
   .inner-contact{
